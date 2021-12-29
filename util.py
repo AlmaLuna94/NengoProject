@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 import nengo_dl
       
-
+#not used
 def createSpikingLines():
     lines = []
     labels = []
@@ -94,7 +94,7 @@ if __name__ == "__main__":
     print(labels)
 
 
-
+#This function was moved into diagLineTest
 # The lines/images should be input as a x by x image, not flattened
 ## Moves line in a continous direction, creates a label for that direction
 def move_lines(lines, labels, randomDir = True, dir =0):
